@@ -213,7 +213,7 @@ font-family: 'Josefin Sans', sans-serif; */
   margin-top: 16px;
   margin-left: 74px;
 }
-.third_section {
+.steps_section {
   background: #333333;
   height: 306px;
   background-repeat: no-repeat;
@@ -224,7 +224,7 @@ font-family: 'Josefin Sans', sans-serif; */
   background-position: 100% 100%;
 }
 
-.fourth_section {
+.promo_section {
   background-image: url(imeges/render4.png);
   height: 684px;
   background-repeat: no-repeat;
@@ -235,7 +235,7 @@ font-family: 'Josefin Sans', sans-serif; */
   background-position: 100% 100%;
 }
 
-.fourth_text {
+.promo_text {
   padding: 44px 32px;
   margin-top: 220px;
   width: 648px;
@@ -243,7 +243,7 @@ font-family: 'Josefin Sans', sans-serif; */
   background-color: rgba(0, 0, 0, 0.65);
 }
 
-.fourth_text > h3 {
+.promo_text > h3 {
   margin-top: 16px;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
@@ -254,7 +254,7 @@ font-family: 'Josefin Sans', sans-serif; */
   color: #ffffff;
 }
 
-.fourth_text > p {
+.promo_text > p {
   margin-bottom: 24px;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
@@ -265,7 +265,32 @@ font-family: 'Josefin Sans', sans-serif; */
   color: #ffffff;
 }
 
-.fifth_section {
+.promo_text p:nth-child(3) {
+  margin-top: 16px;
+}
+
+.promo_button {
+  width: 213px;
+  height: 60px;
+  background: #5373fd;
+  font-family: "Aleo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+
+.promo_button:hover {
+  background: #859af8;
+  cursor: pointer;
+}
+
+.advertisement_section {
   background-image: url(imeges/spain5.png);
   height: 684px;
   background-repeat: no-repeat;
@@ -276,11 +301,11 @@ font-family: 'Josefin Sans', sans-serif; */
   background-position: 100% 100%;
 }
 
-.fifth_text {
+.advertisement_text {
   margin-left: 670px;
 }
 
-.sixth_section {
+.reviews_section {
   background-image: url(imeges/BG6.png);
   height: 680px;
   background-repeat: no-repeat;
@@ -289,6 +314,19 @@ font-family: 'Josefin Sans', sans-serif; */
   min-width: 100%;
   background-size: cover;
   background-position: 100% 100%;
+}
+
+.reviews_section div > h2 {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .footer {
