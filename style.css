@@ -192,6 +192,55 @@ font-family: 'Josefin Sans', sans-serif; */
   border: none;
 }
 
+.steps {
+  display: flex;
+  gap: 370px;
+  justify-content: center;
+  padding-top: 107px;
+  position: relative;
+}
+
+/* .steps::after {
+  content: " ";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #ff6363;
+  background-image: url(imeges/Line.svg);
+  top: 0;
+  left: 0;
+} */
+
+.steps_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step_search path {
+  fill: #435397;
+}
+.step_select path {
+  fill: #ff6363;
+}
+.step_up path {
+  fill: #00a2ff;
+}
+
+.steps p {
+  margin-top: 4px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  white-space: nowrap;
+  text-align: center;
+}
+
 .button_Explore:hover {
   background: #859af8;
   cursor: pointer;
