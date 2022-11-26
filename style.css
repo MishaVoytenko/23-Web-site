@@ -413,7 +413,7 @@ font-family: 'Josefin Sans', sans-serif; */
 .reviews_text {
   width: 880px;
   height: 280px;
-  background-color: ##333333;
+  background-color: #333333;
   display: flex;
   flex-direction: column;
 }
